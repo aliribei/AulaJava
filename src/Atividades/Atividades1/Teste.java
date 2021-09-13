@@ -75,13 +75,15 @@ public class Teste {
     private void exibirMenu() {
         System.out.println("\n\n");
         System.out.println("+-------------------------------------------+");
+        System.out.println("+------------------Bem Vindo----------------+");
+        System.out.println("+-------------------------------------------+");
         System.out.println("|        Cadastro de produtos               |");
         System.out.println("|          Escolha uma opção:               |");
         System.out.println("+-------------------------------------------+");
-        System.out.println("| 1 - Cadastrar Produto                    |");
-        System.out.println("| 2 - Imprimir relatório de produtos       |");
-        System.out.println("| 3 - Exibir o menu de opções              |");
-        System.out.println("| 0 - Sair                                 |");
+        System.out.println("| 1 - Cadastrar Produto                     |");
+        System.out.println("| 2 - Imprimir relatório de produtos        |");
+        System.out.println("| 3 - Exibir o menu de opções               |");
+        System.out.println("| 0 - Sair                                  |");
         System.out.println("+-------------------------------------------+");
     }
 }
