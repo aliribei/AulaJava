@@ -7,6 +7,9 @@
 	🚧  Estudos 🚀 Em andamento...  🚧
 </h4>
 
+## Tipos de dados 
+[wiki](https://github.com/aliribei/AulaJava/wiki)
+
 ## Configuração para Desenvolvimento
 
 Para rodar o projeto você deve ter instalado em sua maquina
