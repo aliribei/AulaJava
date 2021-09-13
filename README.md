@@ -8,7 +8,7 @@
 </h4>
 
 ## Tipos de dados 
-[wiki](https://github.com/aliribei/AulaJava/wiki)
+[Wiki tipo de Dados Java](https://github.com/aliribei/AulaJava/wiki)
 
 ## Configuração para Desenvolvimento
 
