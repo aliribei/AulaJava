@@ -1,4 +1,4 @@
-package Atividades.Atividades1;
+package Atividades.Atividade1;
 import java.util.Locale;
 import java.text.NumberFormat;
 import java.util.List;

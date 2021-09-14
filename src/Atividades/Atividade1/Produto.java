@@ -1,4 +1,4 @@
-package Atividades.Atividades1;
+package Atividades.Atividade1;
 
 public class Produto {
     private int codigoProduto;
