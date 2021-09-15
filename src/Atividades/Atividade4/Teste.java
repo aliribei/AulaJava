@@ -5,7 +5,8 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 import Atividades.Atividade4.pacote.ValidaCpf;
-
+import Atividades.Atividade4.pacote.ValidaNome;
+import Atividades.Atividade4.pacote.ValidaRg;
 
 
 public class Teste {
@@ -14,21 +15,44 @@ public class Teste {
     private void cadastrarClientes(){
 
         String CPF;
+        String NOME;
+        String RG;
+        boolean isOk = true;
 
         Scanner leitor = new Scanner(System.in);
         ClienteWhile cliente = new ClienteWhile();
 
-        System.out.print("Nome do cliente: ");
-        cliente.setNomeCliente(leitor.nextLine());
+        do {
+            System.out.print("Nome do cliente: ");
+            NOME = leitor.nextLine();
+            if (ValidaNome.isNome(NOME) == true){
+                cliente.setNomeCliente(NOME);
+                break;
+            } else{ System.out.printf("Erro, nome deve conter no mínimo 3 caracteres !!!\n");};
+        }while (isOk);
+
 
         System.out.print("Sobrenome do cliente: ");
         cliente.setSobrenomeCliente(leitor.nextLine());
 
-        System.out.print("Cpf do cliente: ");
-        CPF = leitor.nextLine();
-        if (ValidaCpf.isCPF(CPF) == true){
-            cliente.setCpf(CPF);
-        } else{ System.out.printf("Erro, CPF invalido !!!\n");};
+
+        do {
+            System.out.print("Cpf do cliente: ");
+            CPF = leitor.nextLine();
+            if (ValidaCpf.isCPF(CPF) == true){
+                cliente.setCpf(CPF);
+                break;
+            } else{ System.out.printf("Erro, CPF invalido !!!\n");};
+        }while (isOk);
+
+        do{
+            System.out.print("RG do cliente: ");
+            RG = leitor.nextLine();
+            if (ValidaRg.isRg(RG) == true){
+                cliente.setNomeCliente(RG);
+                break;
+            } else{ System.out.printf("Erro, DIGITE NO MÍNIMO 4 E NO MAXÍMO 11 CARACTERES !!!\n");};
+        }while (isOk);
 
         leitor.nextLine();// limpa o scanner
         clientes.add(cliente);
