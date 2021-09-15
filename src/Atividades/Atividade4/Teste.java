@@ -31,10 +31,8 @@ public class Teste {
             } else{ System.out.printf("Erro, nome deve conter no mínimo 3 caracteres !!!\n");};
         }while (isOk);
 
-
         System.out.print("Sobrenome do cliente: ");
         cliente.setSobrenomeCliente(leitor.nextLine());
-
 
         do {
             System.out.print("Cpf do cliente: ");
@@ -49,7 +47,7 @@ public class Teste {
             System.out.print("RG do cliente: ");
             RG = leitor.nextLine();
             if (ValidaRg.isRg(RG) == true){
-                cliente.setNomeCliente(RG);
+                cliente.setRg(RG);
                 break;
             } else{ System.out.printf("Erro, DIGITE NO MÍNIMO 4 E NO MAXÍMO 11 CARACTERES !!!\n");};
         }while (isOk);
