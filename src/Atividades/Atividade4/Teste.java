@@ -58,10 +58,10 @@ public class Teste {
     private void imprimirClientes() {
         for(ClienteWhile cliente : clientes){
             System.out.println("Lista de clientes cadastrados: ");
-            System.out.println("Nome:   " + cliente.getNomeCliente().toUpperCase());
-            System.out.println("Sobrenome:   " + cliente.getSobrenomeCliente().toUpperCase());
-            System.out.println("Cpf: " + ValidaCpf.maskCPF(cliente.getCpf()));
-            System.out.println("Rg: " + cliente.getRg());
+            System.out.println("Nome        : " + cliente.getNomeCliente().toUpperCase());
+            System.out.println("Sobrenome   : " + cliente.getSobrenomeCliente().toUpperCase());
+            System.out.println("Cpf         : " + ValidaCpf.maskCPF(cliente.getCpf()));
+            System.out.println("Rg          : " + cliente.getRg());
             System.out.println("\n\n");
         }
     }
