@@ -1,7 +1,6 @@
 package Atividades.Atividade4;
 
 import java.util.ArrayList;
-import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 import Atividades.Atividade4.pacote.ValidaCpf;
@@ -61,7 +60,7 @@ public class Teste {
             System.out.println("Lista de clientes cadastrados: ");
             System.out.println("Nome:   " + cliente.getNomeCliente().toUpperCase());
             System.out.println("Sobrenome:   " + cliente.getSobrenomeCliente().toUpperCase());
-            System.out.println("Cpf: " + cliente.getCpf());
+            System.out.println("Cpf: " + ValidaCpf.maskCPF(cliente.getCpf()));
             System.out.println("Rg: " + cliente.getRg());
             System.out.println("\n\n");
         }
