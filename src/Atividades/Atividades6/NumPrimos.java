@@ -7,9 +7,8 @@ public class NumPrimos {
 
         for (int i = 2; i <= 150; i++) {
             if ( validatePrime.isPrime(i)) {
-                System.out.println("O número: " + i + " é primo");
+                System.out.println("O número -> " + i + " é primo");
             }
         }
     }
-
 }

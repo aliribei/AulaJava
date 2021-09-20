@@ -1,6 +1,7 @@
 package Atividades.Atividades6;
 import java.text.NumberFormat;
 import java.util.Locale;
+
 public class Investimento {
 
     public static void main(String args[]){
