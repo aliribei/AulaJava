@@ -39,7 +39,7 @@
       <recent name="C:\Users\aliribei\dev" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumPrimos">
+  <component name="RunManager" selected="Application.Investimento">
     <configuration name="AtividadeFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Atividades.Atividade5.AtividadeFor" />
       <module name="dev" />
@@ -107,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumPrimos" />
         <item itemvalue="Application.Investimento" />
+        <item itemvalue="Application.NumPrimos" />
         <item itemvalue="Application.ParImpar" />
         <item itemvalue="Application.NomeSobrenome" />
         <item itemvalue="Application.AtividadeFor" />

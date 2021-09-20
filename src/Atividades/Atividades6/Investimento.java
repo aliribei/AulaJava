@@ -11,7 +11,7 @@ public class Investimento {
         double valorInicial = 5000.00; // valor original
         double percentual = 2.0 / 100.0; // 2%
 
-        System.out.println("Valor inicial de investimento: " + valorInicial);
+        System.out.println("Valor inicial de investimento: " + currencyFormatter.format(valorInicial));
 
         for (int mes = 1; mes <= 24; mes++) {
             double valorLucro = percentual * valorInicial;
