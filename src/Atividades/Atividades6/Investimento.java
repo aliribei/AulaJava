@@ -1,6 +1,5 @@
 package Atividades.Atividades6;
 import java.text.NumberFormat;
-import java.util.Currency;
 import java.util.Locale;
 public class Investimento {
 
@@ -16,6 +15,8 @@ public class Investimento {
         for (int mes = 1; mes <= 24; mes++) {
             double valorLucro = percentual * valorInicial;
             valorInicial += (valorInicial * percentual);
+
+            System.out.println("*****************************");
 
             System.out.println( "Mês : " + mes + "\nValor atualizado: " + currencyFormatter.format(valorInicial));
             System.out.println("Rendimento mensal de : "+ currencyFormatter.format(valorLucro));
