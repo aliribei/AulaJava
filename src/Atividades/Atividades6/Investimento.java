@@ -10,7 +10,7 @@ public class Investimento {
         double valorInicial = 5000.00; // valor original
         double percentual = 2.0 / 100.0; // 2%
 
-        System.out.println("Valor inicial de investimento : " + valorInicial);
+        System.out.println("Valor inicial de investimento: " + valorInicial);
 
         for (int mes = 1; mes <= 24; mes++) {
             double valorLucro = percentual * valorInicial;
@@ -18,8 +18,8 @@ public class Investimento {
 
             System.out.println("*****************************");
 
-            System.out.println( "Mês : " + mes + "\nValor atualizado: " + currencyFormatter.format(valorInicial));
-            System.out.println("Rendimento mensal de : "+ currencyFormatter.format(valorLucro));
+            System.out.println( "Mês: " + mes + "\nValor atualizado: " + currencyFormatter.format(valorInicial));
+            System.out.println("Rendimento mensal de: "+ currencyFormatter.format(valorLucro));
         }
     }
 }

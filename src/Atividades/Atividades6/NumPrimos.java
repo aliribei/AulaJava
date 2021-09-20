@@ -4,7 +4,7 @@ public class NumPrimos {
 
     public static void main(String args[]) {
 
-        for (int i = 1; i <= 150; i++) {
+        for (int i = 2; i <= 150; i++) {
             if (isPrime(i)) {
                 System.out.println("O número: " + i + " é primo");
             }
