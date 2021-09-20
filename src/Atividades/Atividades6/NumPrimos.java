@@ -1,29 +1,15 @@
 package Atividades.Atividades6;
+import Atividades.Atividades6.validationPackage.validatePrime;
 
 public class NumPrimos {
 
     public static void main(String args[]) {
 
         for (int i = 2; i <= 150; i++) {
-            if (isPrime(i)) {
+            if ( validatePrime.isPrime(i)) {
                 System.out.println("O número: " + i + " é primo");
             }
-
         }
-
     }
 
-    public static boolean isPrime(int number) {
-
-        int count = 2;
-
-        for (int i = 2; i < number; i++) {
-            if (number % i == 0) {
-                count++;
-            }
-        }
-
-        return count == 2;
-
-    }
 }
