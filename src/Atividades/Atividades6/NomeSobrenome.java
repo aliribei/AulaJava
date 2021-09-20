@@ -2,7 +2,7 @@ package Atividades.Atividades6;
 
 import java.util.Scanner;
 
-public class Main {
+public class NomeSobrenome {
     public static void main(String[] args) {
 
         Scanner reader = new Scanner(System.in);
@@ -19,7 +19,6 @@ public class Main {
             System.out.printf("%d Usuario cadastrado com sucessos!\n Nome:  %s %s!\n", indice +1, nome,sobrenome);
             indice++;
         }
-
 
         int contador = 0;
         System.out.println("++++++++++++++++ While +++++++++++++++++");

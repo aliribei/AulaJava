@@ -36,7 +36,7 @@
       <recent name="C:\Users\aliribei\dev" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.NumPrimos">
     <configuration name="AtividadeFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Atividades.Atividade5.AtividadeFor" />
       <module name="dev" />
@@ -50,8 +50,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Atividades.Atividades6.Main" />
+    <configuration name="NomeSobrenome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividades.Atividades6.NomeSobrenome" />
       <module name="dev" />
       <extension name="coverage">
         <pattern>
@@ -63,19 +63,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="NumPrimos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividades.Atividades6.NumPrimos" />
       <module name="dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Atividades.Atividades6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Atividades.Atividade4.Teste" />
+    <configuration name="ParImpar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividades.Atividades6.ParImpar" />
       <module name="dev" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Atividades.Atividade4.*" />
+          <option name="PATTERN" value="Atividades.Atividades6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.NumPrimos" />
+        <item itemvalue="Application.ParImpar" />
+        <item itemvalue="Application.NomeSobrenome" />
         <item itemvalue="Application.AtividadeFor" />
         <item itemvalue="Application.a6_2_semanal" />
-        <item itemvalue="Application.Teste" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
