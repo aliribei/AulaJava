@@ -4,13 +4,11 @@ public class validatePrime {
 
     public static boolean isPrime(int number) {
 
-        int count = 2;
-
         for (int i = 2; i < number; i++) {
             if (number % i == 0) {
-                count++;
+               return false;
             }
         }
-        return count == 2;
+        return true;
     }
 }
