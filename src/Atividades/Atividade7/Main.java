@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     Scanner leitor = new Scanner(System.in);
     public static void main(String[] args) {
-
+        cabecalho();
         boolean valida = false;
         do {
             double num1 =  ler_numero("Digite um número:");
@@ -15,13 +15,21 @@ public class Main {
                 double res2  = subtrair(num1, num2);
                 double res3  = dividir(num1, num2);
                 double res4  = multiplicar(num1, num2);
-                System.out.println(res1 + "\n" +res2 + "\n" +res3 + "\n" +res4 + "\n");
+                System.out.println("Resultados: " +
+                        "\nSoma: "+ res1 +
+                        "\nSubtração: " +res2 +
+                        "\nDivisão: " +res3 +
+                        "\nMultiplicação: " +res4);
                 break;
             }else {
                 System.out.println("Número tem que ser maior que 0!");
                 valida = false;
             }
         }while (valida = true);
+    }
+
+    static void cabecalho(){
+        System.out.println("======= Calculadora =========\n");
     }
 
     static double somar (double numero1, double numero2){
