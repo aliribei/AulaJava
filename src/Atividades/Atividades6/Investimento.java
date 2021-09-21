@@ -5,6 +5,7 @@ import java.util.Locale;
 public class Investimento {
 
     public static void main(String args[]){
+
         Locale locale = new Locale("pt", "BR");
         NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(locale);
 
@@ -14,6 +15,7 @@ public class Investimento {
         System.out.println("Valor inicial de investimento: " + currencyFormatter.format(valorInicial));
 
         for (int mes = 1; mes <= 24; mes++) {
+
             double valorLucro = percentual * valorInicial;
             valorInicial += (valorInicial * percentual);
 
