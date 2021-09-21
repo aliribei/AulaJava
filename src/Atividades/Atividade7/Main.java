@@ -16,11 +16,12 @@ public class Main {
                 double res3  = dividir(num1, num2);
                 double res4  = multiplicar(num1, num2);
                 System.out.println(res1 + "\n" +res2 + "\n" +res3 + "\n" +res4 + "\n");
+                break;
             }else {
                 System.out.println("Número tem que ser maior que 0!");
                 valida = false;
             }
-        }while (valida);
+        }while (valida = true);
     }
 
     static double somar (double numero1, double numero2){
