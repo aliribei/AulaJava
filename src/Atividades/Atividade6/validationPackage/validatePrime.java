@@ -1,4 +1,4 @@
-package Atividades.Atividades6.validationPackage;
+package Atividades.Atividade6.validationPackage;
 
 public class validatePrime {
 

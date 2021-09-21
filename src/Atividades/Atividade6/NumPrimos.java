@@ -1,5 +1,5 @@
-package Atividades.Atividades6;
-import Atividades.Atividades6.validationPackage.validatePrime;
+package Atividades.Atividade6;
+import Atividades.Atividade6.validationPackage.validatePrime;
 
 public class NumPrimos {
 

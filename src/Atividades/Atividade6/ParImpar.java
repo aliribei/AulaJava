@@ -1,6 +1,4 @@
-package Atividades.Atividades6;
-
-import java.util.Scanner;
+package Atividades.Atividade6;
 
 public class ParImpar {
     public static void main(String[] args) {
