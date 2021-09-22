@@ -3,10 +3,8 @@ package Atividades.Atividade7;
 import java.util.Scanner;
 
 public class Main {
-    Scanner leitor = new Scanner(System.in);
     public static void main(String[] args) {
         cabecalho();
-        boolean valida = false;
         do {
             double num1 =  ler_numero("Digite um número:");
             double num2 =  ler_numero("Digite outro número:");
@@ -15,23 +13,23 @@ public class Main {
                 double res2  = subtrair(num1, num2);
                 double res3  = dividir(num1, num2);
                 double res4  = multiplicar(num1, num2);
+
                 System.out.println("-----Resultados:-----");
                 System.out.printf("Soma: %.2f\n",res1);
                 System.out.printf("Subtração: %.2f\n",res2);
                 System.out.printf("Divisão: %.2f\n",res3);
                 System.out.printf("Multiplicação: %.2f\n",res4);
+                System.out.println("-------------------------------");
                 System.out.print("Resultados: "+
                         "\nSoma: " + res1 +
                         "\nSubtração: " + res2 +
                         "\nDivisão: " + res3 +
                         "\nMultiplicação: " + res4);
-
                 break;
             }else {
                 System.out.println("Número tem que ser maior que 0!");
-                valida = false;
             }
-        }while (valida = true);
+        }while (true);
     }
 
     static void cabecalho(){
@@ -60,7 +58,7 @@ public class Main {
     static double ler_numero(String mensagem){
         Scanner leitor = new Scanner(System.in);
         System.out.print(mensagem);
-        double numero = Integer.parseInt(leitor.nextLine());
+        double numero = Double.parseDouble(leitor.nextLine());
         return numero;
     }
 }
