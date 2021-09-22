@@ -15,11 +15,17 @@ public class Main {
                 double res2  = subtrair(num1, num2);
                 double res3  = dividir(num1, num2);
                 double res4  = multiplicar(num1, num2);
-                System.out.println("Resultados: " +
-                        "\nSoma: "+ res1 +
-                        "\nSubtração: " +res2 +
-                        "\nDivisão: " +res3 +
-                        "\nMultiplicação: " +res4);
+                System.out.println("-----Resultados:-----");
+                System.out.printf("Soma: %.2f\n",res1);
+                System.out.printf("Subtração: %.2f\n",res2);
+                System.out.printf("Divisão: %.2f\n",res3);
+                System.out.printf("Multiplicação: %.2f\n",res4);
+                System.out.print("Resultados: "+
+                        "\nSoma: " + res1 +
+                        "\nSubtração: " + res2 +
+                        "\nDivisão: " + res3 +
+                        "\nMultiplicação: " + res4);
+
                 break;
             }else {
                 System.out.println("Número tem que ser maior que 0!");
