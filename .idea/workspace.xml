@@ -29,9 +29,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dojo21.09" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -39,13 +43,13 @@
       <recent name="C:\Users\aliribei\dev" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Investimento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Atividades.Atividade6.Investimento" />
+  <component name="RunManager" selected="JUnit.CalculadoraTest">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Extras.calculadora.Main" />
       <module name="dev" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Atividades.Atividade6.*" />
+          <option name="PATTERN" value="Extras.calculadora.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Atividades.Atividade7.Main" />
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividades.Atividade1.Teste" />
       <module name="dev" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Atividades.Atividade7.*" />
+          <option name="PATTERN" value="Atividades.Atividade1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumPrimos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Atividades.Atividade6.NumPrimos" />
+    <configuration name="a10_1_metodos" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Modulo1.aula10.a10_1_metodos" />
       <module name="dev" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Atividades.Atividade6.*" />
+          <option name="PATTERN" value="Modulo1.aula10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,39 +83,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="a9_1_metodos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modulo1.aula9.a9_1_metodos" />
+    <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dev" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Modulo1.aula9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="a9_2_metodos_nome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modulo1.aula9.a9_2_metodos_nome" />
+    <configuration name="CalculadoraTest.testeSoma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dev" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Modulo1.aula9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
+      <option name="METHOD_NAME" value="testeSoma" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.testeSubtracao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dev" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
+      <option name="METHOD_NAME" value="testeSubtracao" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.a9_2_metodos_nome" />
-        <item itemvalue="Application.a9_1_metodos" />
-        <item itemvalue="Application.NumPrimos" />
-        <item itemvalue="Application.Investimento" />
+        <item itemvalue="JUnit.CalculadoraTest" />
+        <item itemvalue="JUnit.CalculadoraTest.testeSubtracao" />
+        <item itemvalue="JUnit.CalculadoraTest.testeSoma" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Teste" />
       </list>
     </recent_temporary>
   </component>
@@ -125,5 +132,16 @@
       <updated>1631801149804</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
