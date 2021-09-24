@@ -35,5 +35,4 @@ public class a6 {
 
         System.out.println( "Fora do if" );
     }
-    
 }

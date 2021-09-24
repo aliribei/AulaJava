@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class a5 {
 
+    private static Scanner sc;
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
 
         System.out.println("Digite algo");
         String linha = sc.nextLine();
@@ -40,6 +42,7 @@ public class a5 {
         System.out.println("Digite um numero Double");
         long linha8 = Long.parseLong(sc.nextLine());
         System.out.println("Foi lido: " + linha8);
+        
 
     }
     
