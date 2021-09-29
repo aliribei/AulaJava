@@ -2,9 +2,11 @@ package Atividades.Atividade5;
 import java.util.Scanner;
 
 public class AtividadeFor {
+    private static Scanner reader;
+
     public static void main(String[] args) {
 
-        Scanner reader = new Scanner(System.in);
+        reader = new Scanner(System.in);
         String nome;
         String sobrenome;
 

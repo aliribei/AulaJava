@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class a6_1_atividadepratica5 {
 
+    private static Scanner sc;
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
 
         boolean invalido = true;
 

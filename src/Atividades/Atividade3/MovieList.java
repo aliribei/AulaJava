@@ -1,13 +1,23 @@
 package Atividades.Atividade3;
 
-import Atividades.Atividade2.Cliente;
-
 import java.util.Scanner;
 
 public class MovieList {
 
+    private static Scanner leitor;
+    private static String movieName;
+    private static String movieDescription;
+    private static String movieGenre;
+    private static int movieYear;
+    private static String seriesName;
+    private static int seriesYear;
+    private static String seriesProducer;
+    private static String documentaryName;
+    private static int documentaryYear;
+    private static String documentaryProducer;
+
     public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
+        leitor = new Scanner(System.in);
 
         System.out.println("***************************************************");
         System.out.println("*****************    MoviesList    *****************");
@@ -28,29 +38,29 @@ public class MovieList {
                 System.out.println(" ****** Filme ******");
 
                 System.out.println("Digite o nome do filme: ");
-                String movieName = leitor.nextLine();
+                setMovieName(leitor.nextLine());
 
                 System.out.println("Digite a descrição: ");
-                String movieDescription = leitor.nextLine();
+                setMovieDescription(leitor.nextLine());
 
                 System.out.println("Digite o gênero: ");
-                String movieGenre = leitor.nextLine();
+                setMovieGenre(leitor.nextLine());
 
                 System.out.println("Digite o ano de lançamento: ");
-                int movieYear = leitor.nextInt();
+                setMovieYear(leitor.nextInt());
                 break;
 
             case 2:
                 System.out.println(" ****** Série ******");
 
                 System.out.println("Digite o nome: ");
-                String seriesName = leitor.nextLine();
+                setSeriesName(leitor.nextLine());
 
                 System.out.println("Digite o ano de lançamento: ");
-                int seriesYear = leitor.nextInt();
+                setSeriesYear(leitor.nextInt());
 
                 System.out.println("Digite a produtora: ");
-                String seriesProducer = leitor.nextLine();
+                setSeriesProducer(leitor.nextLine());
                 break;
 
             case 3:
@@ -58,18 +68,98 @@ public class MovieList {
                 System.out.println(" ****** Documentário ******");
 
                 System.out.println("Digite o nome: ");
-                String documentaryName = leitor.nextLine();
+                setDocumentaryName(leitor.nextLine());
 
                 System.out.println("Digite o ano de lançamento: ");
-                int documentaryYear = leitor.nextInt();
+                setDocumentaryYear(leitor.nextInt());
 
                 System.out.println("Digite a produtora: ");
-                String documentaryProducer = leitor.nextLine();
+                setDocumentaryProducer(leitor.nextLine());
                 break;
             case 0:
                 System.out.println("Fim do programa");
                 System.out.println("=================================================");
                 break;
         }
+    }
+
+    public static String getDocumentaryName() {
+        return documentaryName;
+    }
+
+    public static void setDocumentaryName(String documentaryName) {
+        MovieList.documentaryName = documentaryName;
+    }
+
+    public static String getSeriesProducer() {
+        return seriesProducer;
+    }
+
+    public static void setSeriesProducer(String seriesProducer) {
+        MovieList.seriesProducer = seriesProducer;
+    }
+
+    public static String getSeriesName() {
+        return seriesName;
+    }
+
+    public static void setSeriesName(String seriesName) {
+        MovieList.seriesName = seriesName;
+    }
+
+    public static int getDocumentaryYear() {
+        return documentaryYear;
+    }
+
+    public static void setDocumentaryYear(int documentaryYear) {
+        MovieList.documentaryYear = documentaryYear;
+    }
+
+    public static String getDocumentaryProducer() {
+        return documentaryProducer;
+    }
+
+    public static void setDocumentaryProducer(String documentaryProducer) {
+        MovieList.documentaryProducer = documentaryProducer;
+    }
+
+    public static int getSeriesYear() {
+        return seriesYear;
+    }
+
+    public static void setSeriesYear(int seriesYear) {
+        MovieList.seriesYear = seriesYear;
+    }
+
+    public static int getMovieYear() {
+        return movieYear;
+    }
+
+    public static void setMovieYear(int movieYear) {
+        MovieList.movieYear = movieYear;
+    }
+
+    public static String getMovieGenre() {
+        return movieGenre;
+    }
+
+    public static void setMovieGenre(String movieGenre) {
+        MovieList.movieGenre = movieGenre;
+    }
+
+    public static String getMovieDescription() {
+        return movieDescription;
+    }
+
+    public static void setMovieDescription(String movieDescription) {
+        MovieList.movieDescription = movieDescription;
+    }
+
+    public static String getMovieName() {
+        return movieName;
+    }
+
+    public static void setMovieName(String movieName) {
+        MovieList.movieName = movieName;
     }
 }

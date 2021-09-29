@@ -2,8 +2,21 @@ package Modulo1.aula6;
 import java.util.Scanner;
 
 public class a6_2_semanal {
+    private static Scanner reader;
+
+    public a6_2_semanal() {
+    }
+
+    public static Scanner getReader() {
+        return reader;
+    }
+
+    public static void setReader(Scanner reader) {
+        a6_2_semanal.reader = reader;
+    }
+
     public static void main (String[] args) {
-        Scanner reader = new Scanner(System.in);
+        setReader(new Scanner(System.in));
 
         int contador = 0;
         while (contador < 5) {

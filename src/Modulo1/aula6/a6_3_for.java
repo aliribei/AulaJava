@@ -2,9 +2,11 @@ package Modulo1.aula6;
 import java.util.Scanner;
 public class a6_3_for {
 
+    private static Scanner sc;
+
     public static void main(String[] args) {
         String nome = "";
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
 
         boolean dado_valido = true;
         do{

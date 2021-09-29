@@ -7,9 +7,11 @@ import java.util.Scanner;
 public class Teste {
 
     List<Cliente> clientes = new ArrayList<>();
+    private Scanner leitor;
+    private static Scanner leitor2;
 
     private void cadastrarClientes(){
-        Scanner leitor = new Scanner(System.in);
+        leitor = new Scanner(System.in);
         Cliente cliente = new Cliente();
 
         System.out.print("Nome do cliente: ");
@@ -37,14 +39,14 @@ public class Teste {
 
     public static void main(String[] args){
         short opcao = 3;
-        Scanner leitor = new Scanner(System.in);
+        leitor2 = new Scanner(System.in);
         Atividades.Atividade2.Teste teste = new Atividades.Atividade2.Teste();
 
         do{
             teste.exibirMenu();
 
             System.out.print("Opção escolhida: ");
-            opcao = leitor.nextShort();
+            opcao = leitor2.nextShort();
 
             switch(opcao){
                 case 1:

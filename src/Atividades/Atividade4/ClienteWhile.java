@@ -1,8 +1,5 @@
 package Atividades.Atividade4;
 
-
-import java.util.Scanner;
-
 public class ClienteWhile {
 
     private String nomeCliente;

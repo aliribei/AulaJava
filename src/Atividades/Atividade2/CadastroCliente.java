@@ -3,9 +3,11 @@ import java.util.Scanner;
 
 public class CadastroCliente {
 
+    private static Scanner sc;
+
     public static void main(String args[]) {
 
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
 
         System.out.println("+-------------------------------------------+");
         System.out.println("+------------------Bem Vindo----------------+");

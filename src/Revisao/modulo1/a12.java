@@ -1,4 +1,4 @@
-package modulo1;
+package Revisao.modulo1;
 
 public class a12 {
      public static void main(String[] args) {

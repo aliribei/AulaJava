@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class a5_1_while {
 
 
+    private static Scanner reader;
+
     public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);
+        reader = new Scanner(System.in);
         boolean invalido = true;
 
         do {

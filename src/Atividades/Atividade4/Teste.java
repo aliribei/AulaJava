@@ -11,6 +11,8 @@ import Atividades.Atividade4.pacote.ValidaRg;
 public class Teste {
 
     List<ClienteWhile> clientes = new ArrayList<>();
+    private Scanner leitor;
+    private static Scanner leitor2;
     private void cadastrarClientes(){
 
         String CPF;
@@ -18,7 +20,7 @@ public class Teste {
         String RG;
         boolean isOk = true;
 
-        Scanner leitor = new Scanner(System.in);
+        leitor = new Scanner(System.in);
         ClienteWhile cliente = new ClienteWhile();
 
         do {
@@ -68,14 +70,14 @@ public class Teste {
 
     public static void main(String[] args){
         short opcao = 3;
-        Scanner leitor = new Scanner(System.in);
+        leitor2 = new Scanner(System.in);
         Atividades.Atividade4.Teste teste = new Atividades.Atividade4.Teste();
 
         do{
             teste.exibirMenu();
 
             System.out.print("Opção escolhida: ");
-            opcao = leitor.nextShort();
+            opcao = leitor2.nextShort();
 
             switch(opcao){
                 case 1:

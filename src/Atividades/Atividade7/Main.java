@@ -3,6 +3,7 @@ package Atividades.Atividade7;
 import java.util.Scanner;
 
 public class Main {
+    private static Scanner leitor;
     public static void main(String[] args) {
         cabecalho();
         do {
@@ -56,7 +57,7 @@ public class Main {
         return  resultado;
     }
     static double ler_numero(String mensagem){
-        Scanner leitor = new Scanner(System.in);
+        leitor = new Scanner(System.in);
         System.out.print(mensagem);
         double numero = Double.parseDouble(leitor.nextLine());
         return numero;

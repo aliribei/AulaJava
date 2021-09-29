@@ -2,8 +2,10 @@ package Modulo1.aula3;
 import java.util.Scanner;
 
 public class Cliente {
+    private static Scanner sc;
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
 
         System.out.println("================ Cadastro de clientes ===================\n");
         System.out.println("\tBem-Vindo, Digite as informacoes do cliente.");

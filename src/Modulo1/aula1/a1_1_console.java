@@ -1,8 +1,10 @@
 package Modulo1.aula1;
 import java.util.Scanner;
 public class a1_1_console {
+    private static Scanner scanner;
+
     public static void main(String arg[]){
-        Scanner scanner= new Scanner(System.in);
+        scanner = new Scanner(System.in);
 
         System.out.print("Digite seu nome: ");
         String nome=scanner.next();

@@ -5,10 +5,6 @@ public class a2_1_tipointeiro {
     //Variaveis do tipo inteiro
     public static void main(String args[]){
 
-        int numero1 = 'A'; //Atribui um valor inteiro da tabela ASCII (PARA A =65)
-        int numero2 = 10;
-        int numero3 = -10;
-
         int menor_valor = Integer.MIN_VALUE;
         int maior_valor = Integer.MAX_VALUE;
 

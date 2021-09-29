@@ -7,28 +7,30 @@ import java.util.ArrayList;
 
 public class Teste {
     List<Produto> produtos = new ArrayList<>();
+    private static Scanner leitor;
+    private Scanner leitor2;
 
     private void cadastrarProduto(){
-        Scanner leitor = new Scanner(System.in);
+        leitor2 = new Scanner(System.in);
         Produto produto = new Produto();
 
         System.out.print("Nome do produto: ");
-        produto.setNome(leitor.nextLine());
+        produto.setNome(leitor2.nextLine());
 
         System.out.print("Código do produto: ");
-        produto.setCodigoProduto(leitor.nextInt());
+        produto.setCodigoProduto(leitor2.nextInt());
 
         System.out.print("Valor do produto: ");
-        produto.setValor(leitor.nextFloat());
+        produto.setValor(leitor2.nextFloat());
 
         System.out.print("Categoria do produto: ");
-        leitor.nextLine();// limpa o scanner
-        produto.setCategoria(leitor.nextLine());
+        leitor2.nextLine();// limpa o scanner
+        produto.setCategoria(leitor2.nextLine());
 
         System.out.print("Descrição do produto: ");
-        produto.setDescricao(leitor.nextLine());
+        produto.setDescricao(leitor2.nextLine());
 
-        leitor.nextLine();// limpa o scanner
+        leitor2.nextLine();// limpa o scanner
         produtos.add(produto);
     }
 
@@ -48,7 +50,7 @@ public class Teste {
 
     public static void main(String[] args){
         short opcao = 3;
-        Scanner leitor = new Scanner(System.in);
+        leitor = new Scanner(System.in);
         Teste teste = new Teste();
 
         do{

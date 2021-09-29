@@ -3,9 +3,11 @@ package Atividades.Atividade6;
 import java.util.Scanner;
 
 public class NomeSobrenome {
+    private static Scanner reader;
+
     public static void main(String[] args) {
 
-        Scanner reader = new Scanner(System.in);
+        reader = new Scanner(System.in);
         String nome;
         String sobrenome;
         System.out.println("Informe o nome: ");

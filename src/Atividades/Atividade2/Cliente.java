@@ -3,7 +3,6 @@ package Atividades.Atividade2;
 public class Cliente {
 
     private String nomeCliente;
-    private String sobrenomeCliente;
     private int idade;
 
     public void setNomeCliente(String nomeCliente){
@@ -16,7 +15,6 @@ public class Cliente {
     }
 
     public void setSobrenomeCliente(String sobrenomeCliente){
-        this.sobrenomeCliente = sobrenomeCliente;
     }
 
     public String getSobrenomeCliente(){

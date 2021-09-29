@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class a10_1_metodos {
 
+    private static Scanner sc;
     public static void main(String[] args) {
         double num1, num2;
         num1 = ler_numero();
@@ -27,7 +28,7 @@ public class a10_1_metodos {
         System.out.printf("\nO resultado da %s é %.2f", nome_operacao, resultado);
     }
     static double ler_numero(){
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
         System.out.println("Digite um número: ");
         double numero = Double.parseDouble(sc.nextLine());
         return numero;
